@@ -21,8 +21,8 @@ cleartrash()
 #---------------- real run again----------------------
 cd $targetwrfchemdir 
 mv $megandir415/wrfbiochemi_d01 $targetwrfchemdir/
-mv $wesdir415/exo_coldens_d01 $targetwrfchemdir/
-mv $wesdir415/wrf_season_wes_usgs_d01.nc $targetwrfchemdir/
+#mv $wesdir415/exo_coldens_d01 $targetwrfchemdir/
+#mv $wesdir415/wrf_season_wes_usgs_d01.nc $targetwrfchemdir/
 
 trash $targetwrfchemdir/namelist.input
 cp $namelistdir/${namelistwrf} ./namelist.input &&\
