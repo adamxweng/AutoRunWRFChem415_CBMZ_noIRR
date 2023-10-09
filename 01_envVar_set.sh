@@ -239,6 +239,7 @@ cat > ${namelistdir}/${namelistwrf} <<EOF
  !aer_op_opt                          = 2, 2, 2,                  !shut off, doesn't work in real.exe ! aerosol optical properties, 1 = volume, 2 = approximate Maxwell-Garnet, 3 = complex volume-mixing, 4 = complex Maxwell-Garnet, 5 = complex core-shell
  !bbinjectscheme                      = 2, 2, 2,                  !shut off, doesn't work in real.exe ! 0 = plumerise (biomass_burn_opt), 1 = all ground level, 2 = flaming evenly in BL (recommended), 3 = flaming top BL, 4 = flaming injected at specific height
  n2o5_hetchem                        = 0,                         ! N2O5 heterogeneous chemistry, 0 = off, 1 = without Cl- pathway, 2 = full inorganic
+ chemdiag                            = 1,
  /
 
  &namelist_quilt                                                           ! options for asynchronized I/O for MPI applications
@@ -446,6 +447,7 @@ cat > ${namelistdir}/${namelistreal} <<EOF
  !aer_op_opt                          = 2, 2, 2,                  !shut off, doesn't work in real.exe ! aerosol optical properties, 1 = volume, 2 = approximate Maxwell-Garnet, 3 = complex volume-mixing, 4 = complex Maxwell-Garnet, 5 = complex core-shell
  !bbinjectscheme                      = 2, 2, 2,                  !shut off, doesn't work in real.exe ! 0 = plumerise (biomass_burn_opt), 1 = all ground level, 2 = flaming evenly in BL (recommended), 3 = flaming top BL, 4 = flaming injected at specific height
  n2o5_hetchem                        = 0,                         ! N2O5 heterogeneous chemistry, 0 = off, 1 = without Cl- pathway, 2 = full inorganic
+ chemdiag                            = 1,
  /
 
  &namelist_quilt                                                           ! options for asynchronized I/O for MPI applications
